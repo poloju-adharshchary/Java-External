@@ -1,4 +1,3 @@
-package Q4;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +9,7 @@ public class C6 extends JFrame implements ActionListener {
 	String[] bn= {"7","8","9","+","4","5","6","-","1","2","3","*","0","%","=","C"};
 	JButton[] b=new JButton[bn.length];
 	String op;
-	c6() {
+	public C6() {
 		setTitle("Simple Claculator");
 		setLayout(new BorderLayout());
 		
@@ -64,6 +63,6 @@ public class C6 extends JFrame implements ActionListener {
 	}
     
 	public static void main(String[] args) {
-        new c6();
+        new C6();
     }
 }

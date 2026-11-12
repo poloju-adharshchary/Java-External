@@ -1,4 +1,3 @@
-package Q7;
 
 import java.awt.*;
 import java.io.*;
